@@ -1,0 +1,49 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/faucet.sol": "Faucet"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tests/faucet.sol": {
+			"keccak256": "0xeeb191cfe72b71fe38bb1cf3817a37d0a65f7ffb82f59d6a238a43728eb68fef",
+			"urls": [
+				"bzz-raw://5bdfa3c436c426efd8e7482b538f00ac6d24932ae1b0e779c7a52a6487184159",
+				"dweb:/ipfs/Qme77dgy8EgzXezwY7kF3rTuqjiWBG2GAQjhVBxLs7fAKL"
+			]
+		}
+	},
+	"version": 1
+}
